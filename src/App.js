@@ -20,7 +20,7 @@ const App = () => {
       const fetchData = async () => {
         try {
           let arr = [];
-          let url = 'https://swapi.co/api/people';
+          let url = 'https://swapi.dev/api/people';
           let [data,next] = await fd(url);
           arr.push(...data);
 
